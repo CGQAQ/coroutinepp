@@ -45,7 +45,7 @@ struct Promise {
 Lazy<int> GetNumber() { co_return 42; }
 
 struct Noop {
-	struct promise_type : std::promise<void> {
+	struct promise_type {
 		std::suspend_never initial_suspend() noexcept { return {}; }
 		std::suspend_never final_suspend() noexcept { return {}; }
 		void			   return_void() {}
