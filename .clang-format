@@ -1,0 +1,8 @@
+BasedOnStyle: Google
+
+UseTab: Always
+TabWidth: 4
+IndentWidth: 4
+
+AlignConsecutiveAssignments: Consecutive
+AlignConsecutiveDeclarations: Consecutive
